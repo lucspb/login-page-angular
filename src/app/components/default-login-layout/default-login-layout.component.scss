@@ -23,6 +23,26 @@ main {
         width: 100%;
         gap: 30px;
 
+        .divider {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            color: $gray-background;
+            font-weight: 400;
+            gap: 20px;
+            text-transform: uppercase;
+
+            div {
+                flex-grow: 1;
+                height: 2px;
+                background-color: $gray-background;
+            }
+        }
+
+        
+
         button {
             width: 100%;
             border-radius: 8px;
@@ -31,6 +51,7 @@ main {
             border: none;
             background: transparent;
             padding: 12px 24px;
+            cursor: pointer;
             
     
             &.btn-primary {
@@ -57,9 +78,14 @@ main {
         padding: 0 35px;
         gap: 35px;
 
+        img {
+            margin-bottom: 30px;
+        }
+
         h2 {
             font-size: 20px;
             font-weight: bold;
+            margin-bottom: 45px;
         }
     }
 
