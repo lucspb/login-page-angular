@@ -1,27 +1,46 @@
-# LoginPage
+# Projeto Angular 17 - Página de Login
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.3.
+Este projeto é uma aplicação front-end simples desenvolvida em Angular 17 que consiste em uma única página de login. A aplicação se conecta a um backend desenvolvido em Java para autenticação de usuários.
 
-## Development server
+## Índice
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- [Introdução](#introdução)
+- [Pré-requisitos](#pré-requisitos)
+- [Instalação](#instalação)
+- [Uso](#uso)
 
-## Code scaffolding
+## Introdução
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Esta aplicação foi criada para demonstrar a integração de uma página de login desenvolvida com Angular 17 e um backend em Java. O principal objetivo é fornecer um exemplo básico de autenticação de usuários.
 
-## Build
+## Pré-requisitos
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Antes de começar, certifique-se de ter o seguinte instalado em sua máquina:
 
-## Running unit tests
+- [Node.js](https://nodejs.org/) (versão 14 ou superior)
+- [Angular CLI](https://angular.io/cli) (versão 17)
+- [Java JDK](https://www.oracle.com/java/technologies/javase-downloads.html) (versão 8 ou superior)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Instalação
 
-## Running end-to-end tests
+Siga os passos abaixo para configurar e executar o projeto localmente.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. Clone este repositório:
 
-## Further help
+   ```bash
+   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   cd nome-do-repositorio
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+2. Instale as dependências do projeto Angular:
+
+       npm install
+
+## Uso
+
+Para iniciar a aplicação Angular, execute:
+
+    ng serve
+
+A aplicação estará disponível em http://localhost:4200. Acesse esta URL em seu navegador para ver a página de login.
+
+
